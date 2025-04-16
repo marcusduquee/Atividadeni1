@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText android:id="@+id/etSalario" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Salário atual" android:inputType="numberDecimal"/>
+
+    <RadioGroup android:id="@+id/rgAumento">
+        <RadioButton android:id="@+id/rb40" android:text="40%"/>
+        <RadioButton android:id="@+id/rb45" android:text="45%"/>
+        <RadioButton android:id="@+id/rb50" android:text="50%"/>
+    </RadioGroup>
+
+    <Button android:id="@+id/btnCalcular" android:text="Calcular"/>
+    <TextView android:id="@+id/tvResultado" android:layout_marginTop="16dp"/>
+</LinearLayout>

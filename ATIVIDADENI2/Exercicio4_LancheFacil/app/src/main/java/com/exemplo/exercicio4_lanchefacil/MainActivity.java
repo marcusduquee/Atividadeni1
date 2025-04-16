@@ -1,0 +1,1 @@
+// Placeholder Java - será preenchido com estrutura básica
